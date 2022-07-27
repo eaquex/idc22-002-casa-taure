@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Casa Taure Landing Page",
+  "source": "./src/index.html",
+  "distDir": "dist",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaquex/idc22-002-casa-taure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eaquex/idc22-002-casa-taure/issues"
+  },
+  "homepage": "https://github.com/eaquex/idc22-002-casa-taure#readme",
+  "devDependencies": {
+    "@parcel/namer-default": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "latest",
+    "sharp": "^0.29.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "@pritesh9/parcel-namer-preserve-structure": "^1.2.0",
+    "bootstrap": "^5.2.0"
+  },
+  "namerSourceFolder": "src",
+  "namerContentHash": false
+}

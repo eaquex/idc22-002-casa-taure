@@ -1,0 +1,7 @@
+{
+    "extends": "@parcel/config-default",
+    "namers": [         
+        "@pritesh9/parcel-namer-preserve-structure",        
+        "..."
+    ]
+}
